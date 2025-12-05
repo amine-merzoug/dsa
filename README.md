@@ -12,6 +12,8 @@
 
 - [LeetCode](https://leetcode.com/) online platform for coding interview preparation. It offers a collection of coding challenges to help users improve their programming and problem-solving skills.
 
+- [YouTube channel](https://www.youtube.com/@abdul_bari/) Excellent content covering advanced topics in Data Structures and Algorithms.
+  
 ---
 
 ## Books
@@ -23,8 +25,34 @@
 ## Table of Contents
 
 0. Programming Basics
-1. Recursion
-2. Linear data structures
+   - Variables
+   - Reading and writing variables
+   - Expressions and operators
+   - Conditional branching
+   - Conditions, logical operators, and boolean type
+   - Common mistakes made by beginners
+   - For loop
+   - Infinite loops
+   - Do-while & while loop
+   - Blocks & variable scope
+1. Manipulation of functions
+   - Structure of a C++ program
+   - Concept of subprograms
+   - Functions in C++
+   - Function definition
+   - Function declaration
+   - Variable scope
+   - Formal parameters
+   - Parameter passing
+     - Passing by value
+     - Passing by address
+       - First method: passing by pointer
+       - Second method: passing by reference
+   - Concept of execution stack
+   - Functions with return values
+   - Exercises
+2. Recursion
+3. Linear data structures
    - Arrays
    - Matrices
    - Strings
@@ -32,7 +60,7 @@
    - Stacks
    - Queues
    - Sets
-3. Non-linear data structures
+4. Non-linear data structures
    - Trees
      - Binary trees
      - Binary search trees
@@ -40,7 +68,7 @@
    - Graphs
      - BFS
      - DFS
-4. Algorithms
+5. Algorithms
    - Searching algorithms
      - Linear Search
      - Binary Search
@@ -50,8 +78,8 @@
      - Bubble sort
      - Merge sort
    - Dynamic programming
-5. Quizzes
-6. Final projects
+6.  Quizzes
+7.  Final projects
    - Mastermind
    - Longest word
 
