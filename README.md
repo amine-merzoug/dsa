@@ -24,7 +24,7 @@
 
 ## Table of Contents
 
-0. Programming Basics
+1. Basics
    - Variables
    - Reading and writing variables
    - Expressions and operators
@@ -35,8 +35,7 @@
    - Infinite loops
    - Do-while & while loop
    - Blocks & variable scope
-1. Manipulation of functions
-   - Structure of a C++ program
+2. Functions
    - Concept of subprograms
    - Functions in C++
    - Function definition
@@ -44,15 +43,15 @@
    - Variable scope
    - Formal parameters
    - Parameter passing
-     - Passing by value
-     - Passing by address
-       - First method: passing by pointer
-       - Second method: passing by reference
+     - Pass by value
+     - Pass by address
+       - First method: pass by pointer
+       - Second method: pass by reference
    - Concept of execution stack
    - Functions with return values
    - Exercises
-2. Recursion
-3. Linear data structures
+3. Recursion
+4. Linear data structures
    - Arrays
    - Matrices
    - Strings
@@ -60,7 +59,7 @@
    - Stacks
    - Queues
    - Sets
-4. Non-linear data structures
+5. Non-linear data structures
    - Trees
      - Binary trees
      - Binary search trees
@@ -68,7 +67,7 @@
    - Graphs
      - BFS
      - DFS
-5. Algorithms
+6. Algorithms
    - Searching algorithms
      - Linear Search
      - Binary Search
@@ -78,9 +77,10 @@
      - Bubble sort
      - Merge sort
    - Dynamic programming
-6.  Quizzes
-7.  Final projects
+7.  Quizzes
+8.  Final projects
    - Mastermind
    - Longest word
+   - Sparse matrices
 
 This repo is a work in progress. More resources will be added progressively.
