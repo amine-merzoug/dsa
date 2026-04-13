@@ -1,5 +1,11 @@
 # Data Structures and Algorithms in C
 
+## Announcements
+
+Apr 13 — Announcement for First-Year Computer Science Students
+
+You can find your lab sessions in the following folder: "10. lab sessions".
+
 ## Useful links 
 
 - [Python Tutor](https://pythontutor.com) online compiler, visual debugger, and AI tutor for C/C++, Python, Java, and JavaScript.
