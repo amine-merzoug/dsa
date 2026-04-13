@@ -2,9 +2,9 @@
 
 ## Announcements
 
-Apr 13 — Announcement for First-Year Computer Science Students
+Apr 13, 2026 — Announcement for First-Year Computer Science Students.
 
-You can find your lab sessions in the following folder: "10. lab sessions".
+- You can find your lab sessions in the following [folder](https://github.com/amine-merzoug/dsa/tree/main/10.%20lab%20sessions/first%20year%20cs/2025-26).
 
 ## Useful links 
 
