@@ -139,9 +139,9 @@ void process_pair_rows(int m[][MAX_COLS], int rows, int cols){
         }
 
         if (min != 0){
-            printf("Rows: %d, %d -> Result (sum of row %d/ min of %d) = %f\n", i - 1, i, i, i - 1, (float)sum / min);
+            printf("Rows(%d, %d) -> Result (sum of row %d / min of row %d) = %f\n", i - 1, i, i, i - 1, (float)sum / min);
         } else {
-            printf("Rows: %d, %d -> Result (sum of row %d/ min of %d) | (min of %d == 0): Division by Zero Error\n", i - 1, i, i, i - 1, i -1);
+            printf("Rows(%d, %d) -> Result (sum of row %d / min of row %d) | (min of row %d == 0): Division by Zero Error\n", i - 1, i, i, i - 1, i -1);
         }
     }
 }
