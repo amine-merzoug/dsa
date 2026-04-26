@@ -8,10 +8,19 @@
    --------------------------------------------------
    Problem 2
    ---------
-   Given a nxm matrix, displays for any pair of two consecutive rows (odd and even rows),  
+   Given a n x m matrix, display for any pair of two consecutive rows (odd and even rows),  
    1. the sum of the elements of the odd row divided by 
    2. the value of the smallest element of the even row 
 
+   Input
+   0 1 2 3 4 (Row 0)
+   5 1 1 1 1 (Row 1)
+   1 1 1 1 1 (Row 2)
+   2 2 2 2 2 (Row 3)
+
+   Output
+   Rows: 0, 1 -> Result (sum of row 1/ min of 0) | (min of 0 == 0): Division by Zero Error
+   Rows: 2, 3 -> Result (sum of row 3/ min of 2) = 10.000000
    --------------------------------------------------
    Problem 3
    ---------
@@ -25,6 +34,7 @@
    7 4 1
    8 5 2
    9 6 3
+   --------------------------------------------------
 */
 
 #include <stdio.h>
@@ -111,12 +121,11 @@ void display_matrix(int a[][MAX_COLS], int rows, int cols){
     }
 }
 
-// Displays for any pair of two consecutive rows (odd and even rows),  
+// Display for any pair of two consecutive rows (odd and even rows),  
 // 1. the sum of the elements of the odd row divided by 
 // 2. the value of the smallest element of the even row 
 void process_pair_rows(int m[][MAX_COLS], int rows, int cols){
     for (int i = 1; i < rows; i += 2){
-        
         int sum = 0;
         for (int j = 0; j < cols; j++){
             sum += m[i][j];
@@ -131,17 +140,14 @@ void process_pair_rows(int m[][MAX_COLS], int rows, int cols){
 
         if (min != 0){
             printf("Rows: %d, %d -> Result (sum of row %d/ min of %d) = %f\n", i - 1, i, i, i - 1, (float)sum / min);
-        }
-        else {
+        } else {
             printf("Rows: %d, %d -> Result (sum of row %d/ min of %d) | (min of %d == 0): Division by Zero Error\n", i - 1, i, i, i - 1, i -1);
         }
-        
     }
-    
 }
 
 int main(){
-    // Problem 1
+    // Problem 1: reverse the array in place
     int arr[ARR_CAPACITY];
     
     int arr_size = read_arr_size();  
@@ -151,8 +157,7 @@ int main(){
     reverse_arr(arr, arr_size);
     display_arr(arr, arr_size);
 
-    // Problem 2
-
+    // Problem 2: process pairs of rows in matrix
     int m[MAX_ROWS][MAX_COLS];
 
     int rows = read_num_rows();
@@ -162,6 +167,6 @@ int main(){
     display_matrix(m, rows, cols);
     process_pair_rows(m, rows, cols);
 
-    // Problem 3
+    // Problem 3: rotate an n x n matrix by 90° clockwise without using extra space.
     // To be done by students
 }
