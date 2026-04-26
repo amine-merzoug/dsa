@@ -126,11 +126,13 @@ void display_matrix(int a[][MAX_COLS], int rows, int cols){
 // 2. the value of the smallest element of the even row 
 void process_pair_rows(int m[][MAX_COLS], int rows, int cols){
     for (int i = 1; i < rows; i += 2){
+        // 1. the sum of the elements of the odd row "i" 
         int sum = 0;
         for (int j = 0; j < cols; j++){
             sum += m[i][j];
         }
 
+        // 2. the value of the smallest element of the even row "i - 1"
         int min = m[i - 1][0];
         for (int j = 1; j < cols; j++){
             if (m[i - 1][j] < min){ 
